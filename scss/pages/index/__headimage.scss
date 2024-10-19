@@ -1,0 +1,60 @@
+.headimage {
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-image: url("../imgs/заставка.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.headimage__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headimage__text {
+    text-align: center;
+    max-width: 920px;
+    color: white;
+    font-size: 5em;
+}
+
+.headimage__btn {
+    background-color: #FFD000;
+    width: 220px;
+    height: 50px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+@media (max-width: 1000px) {
+    .headimage__text {
+        font-size: 4em;
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 710px) {
+    .headimage__text {
+        font-size: 3em;
+        max-width: 500px;
+    }
+
+    .headimage__btn {
+        width: 160px;
+        height: 40px;
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 480px) {
+    .headimage__text {
+        font-size: 2.5em;
+        max-width: 380px;
+    }
+}

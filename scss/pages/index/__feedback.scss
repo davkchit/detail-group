@@ -1,0 +1,129 @@
+.feedback {
+    overflow: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 5% 8% 5%;
+}
+
+
+.feedback__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0 0 0;
+    width: 1110px;
+}
+
+.feedback__header {
+    font-size: 3em;
+    color: #FFD000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card_feedback {
+    background-color: #FFD000;
+    width: 20%;
+    border-radius: 8px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_feedback * {
+    letter-spacing: 0px;
+    text-transform:none;
+}
+
+.card_feedback__header {
+    font-size: 1.15em;
+    font-weight: 400;
+}
+
+.card_feedback__name {
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+.card_feedback__about {
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 3%;
+}
+
+.card_feedback__img {
+    height: 30%;
+    width: 30%;
+    padding: 7% 0;
+    border-radius: 100%;
+}
+
+.card_feedback__information {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1250px) {
+    .feedback__main {
+        width: 100%;
+    }
+
+    .card_feedback__1 {
+        display: none;
+    }
+
+    .card_feedback {
+        width: 25%;
+    }
+}
+
+@media (max-width: 750px) {
+    .card_feedback__2 {
+        display: none;
+    }
+
+    .card_feedback {
+        width: 50%;
+    }
+
+    .feedback__header {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 400px) {
+    .feedback__header {
+        font-size: 2em;
+    }
+
+    .feedback__arrow {
+        width: 70px;
+        height: 70px;
+    }
+
+    .card_feedback__name {
+        font-size: 1em;
+    }
+
+    .card_feedback__about {
+        font-size: 0.90em;
+    }
+
+    .card_feedback__header {
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .feedback {
+        padding: 2.5% 0 5% 0;
+    }
+}
