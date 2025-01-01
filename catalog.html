@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DN7V3LBC8S"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DN7V3LBC8S');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
+    <script src="burger.js" defer></script>
+</head>
+<body>
+    
+    <div class="modal">
+            <div id="modal-content">
+                <span id="close-btn">×</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-price"></p>
+                <p id="modal-info"></p>
+                <div class="modal-carouselandbtn">
+                    <button id="prev-btn">❮</button>
+                    <div class="carousel"></div>
+                    <button id="next-btn">❯</button>
+                </div>
+            </div>
+    </div>    
+    <div class="site">
+        <div class="header">
+            <div class="header__content">
+                <img src="imgs/Логотип.svg" class="logo">
+                <div class="nav">
+                    <a href="index.html"><span class="nav__item">Главная</span></a>
+                    <a href="aboutus.html"><span class="nav__item">О нас</span></a>
+                    <a href="catalog.html"><span class="nav__item" style="text-decoration: underline;">Каталог</span></a>
+                    <a href="contacts.html"><span class="nav__item">Контакты</span></a>
+                </div>
+                <div class="basket">
+                    <a href="basket.html"><img src="imgs/Basket.svg" alt="Basket" class="basket"></a>
+                </div>
+                <div class="burger">
+                    <a href="basket.html"><img src="imgs/burger.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-nav hidden">
+            <a href="index.html"><span class="mobile-nav__item">Главная</span></a>
+            <a href="aboutus.html"><span class="mobile-nav__item">О нас</span></a>
+            <a href="catalog.html"><span class="mobile-nav__item">Каталог</span></a>
+            <a href="contacts.html"><span class="mobile-nav__item">Контакты</span></a>
+            <a href="basket.html"><span class="mobile-nav__item">Корзина</span></a>
+        </div>
+
+        <div class="popular_items">
+            <div class="popular_items__content">
+                <span class="popular_items__header">
+                    КАТАЛОГ ТОВАРОВ
+                </span>
+                <div class="search-container">
+                    <input type="text" class="popular_items__search" placeholder="Поиск товара...">
+                </div>
+                <div class="popular_items__cards catalog_popular_items__cards">
+                    
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний3.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Амортизатор кабины задний</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">4500</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">(гаситель колебаний)  на 5490 / SAMPA (Турция) </span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_мтз1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_мтз2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_мтз3.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Амортизатор МТЗ</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">193</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">опоры двигателя передний с ограничителем (подушка) (А)</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/барабан_тормозной_правый_короткий1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/барабан_тормозной_правый_короткий2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/барабан_тормозной_правый_короткий3.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/барабан_тормозной_правый_короткий4.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Барабан Т40 тормозной</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">6160</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Барабан Т40 тормозной правый КОРОТКИЙ в сборе (А)</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Блок_шестерен_заднего_хода1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Блок_шестерен_заднего_хода2.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Блок шестерен заднего хода</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">2365</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Блок шестерен заднего хода / КМД</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний3.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Балка подвески раздаточной</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">6046</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Балка подвески раздаточной коробки / ПАО КамАЗ</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Балка_подвески_раздаточной1.jpg);"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Болт МТЗ карданный</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">2045</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Балка подвески раздаточной коробки / ПАО КамАЗ</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Вал_ведущий_среднего_моста1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Вал_ведущий_среднего_моста2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Вал_ведущий_среднего_моста3.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Вал ведущий среднего моста</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">2450</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Вал ведущий среднего моста 4310 (с двух сторон резьба)</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Балка_задней_подвески1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Балка_задней_подвески2.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Балка задней подвески</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">117340</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Балка задней подвески без стяжки (на 5490) / РОСТАР</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Блок_шестерен_заднего_хода1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Блок_шестерен_заднего_хода2.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Блок шестерен заднего хода</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">2365</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Блок шестерен заднего хода / КМД</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний3.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Балка подвески раздаточной</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">6046</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Балка подвески раздаточной коробки / ПАО КамАЗ</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Балка_подвески_раздаточной1.jpg);"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Болт МТЗ карданный</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">2045</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Балка подвески раздаточной коробки / ПАО КамАЗ</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card catalog_product_card">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Вал_ведущий_среднего_моста1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Вал_ведущий_среднего_моста2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Вал_ведущий_среднего_моста3.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Вал ведущий среднего моста</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">2450</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Вал ведущий среднего моста 4310 (с двух сторон резьба)</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+                    
+
+                </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__content">
+            <span class="footer__logo">DETAIL-GROUP</span>
+            <span class="footer__number">+7 919 649-37-20</span>
+            <div class="footer__icons">
+                <a href="https://vk.com/sawisback"><img src="imgs/Social Icons-1.svg" alt=""></a>
+                <a href="https://api.whatsapp.com/send/?phone=79196493720"><img src="imgs/Social Icons.svg" alt=""></a>
+                <a href="https://web.telegram.org/k/#@MarkHoffman2025"><img src="imgs/Social Icons-2.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

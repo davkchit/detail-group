@@ -1,0 +1,86 @@
+@import "index/__aboutus.scss";
+@import "index/__feedback.scss";
+@import "index/__footer.scss";
+@import "index/__header.scss";
+@import "index/__headimage.scss";
+@import "index/__popular-items.scss";
+@import "catalog/__search.scss";
+@import "basket/__basket.scss";
+
+.site-contacts {
+    background-repeat: no-repeat;
+    background-image: url("../imgs/background.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.burger a {
+    display: inline-block;
+  }
+  
+  .mobile-nav {
+    display: none;
+    background-color: #FFD000;
+    position: fixed;
+    top: 60px; /* Adjust based on header height */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+  }
+  
+  .mobile-nav a {
+    display: block;
+    padding: 4% 0;
+    text-decoration: none;
+    color: red;
+  }
+  
+  .mobile-nav__item {
+    color: #000000;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+
+.footer__content-contacts * {
+    color: black;
+}
+
+.footer__contacts {
+    background-color: rgba(0, 0, 0, 0); 
+}
+
+.about_us__content *{
+    font-size: 30px;
+}
+
+@media (max-width: 950px) {
+    .about_us__content *{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about_us__content *{
+        font-size: 20px;
+    }
+}
+
+.about_us__header {
+    text-align: center;
+}
+
+.total-amount {
+  background-color: #FFD000;
+  margin-top: 5%;
+  margin-bottom: -2%;
+  font-size: 24px;
+  border-radius: 100px;
+  text-align: center;
+}

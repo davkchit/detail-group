@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DN7V3LBC8S"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DN7V3LBC8S');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETAIL-GROUP</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
+    <script src="burger.js" defer></script>
+    <script src="feedbackCarousel.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+    <div class="site">
+        <div class="modal">
+            <div id="modal-content">
+                <span id="close-btn">×</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-price"></p>
+                <p id="modal-info"></p>
+                <div class="modal-carouselandbtn">
+                    <button id="prev-btn">❮</button>
+                    <div class="carousel"></div>
+                    <button id="next-btn">❯</button>
+                </div>
+            </div>
+        </div>    
+
+        <div class="header">
+            <div class="header__content">
+                <img src="imgs/Логотип.svg" class="logo">
+            <div class="nav">
+                <a href="index.html"><span class="nav__item" style="text-decoration: underline;">Главная</span></a>
+                <a href="aboutus.html"><span class="nav__item">О нас</span></a>
+                <a href="catalog.html"><span class="nav__item"> Каталог</span></a>
+                <a href="contacts.html"><span class="nav__item">Контакты</span></a>
+            </div>
+            <div class="basket">
+                <a href="basket.html"><img src="imgs/Basket.svg" alt="Basket" class="basket"></a>
+            </div>
+            <div class="burger">
+                <a href=""><img src="imgs/burger.svg" alt=""></a>
+            </div>
+            </div>
+        </div>
+
+        <div class="mobile-nav hidden">
+            <a href="index.html"><span class="mobile-nav__item">Главная</span></a>
+            <a href="aboutus.html"><span class="mobile-nav__item">О нас</span></a>
+            <a href="catalog.html"><span class="mobile-nav__item">Каталог</span></a>
+            <a href="contacts.html"><span class="mobile-nav__item">Контакты</span></a>
+            <a href="basket.html"><span class="mobile-nav__item">Корзина</span></a>
+        </div>
+
+        <div class="headimage">
+            <div class="headimage__content">
+                <span class="headimage__text">
+                    ЗАКАЗЫВАЙТЕ ЗАПЧАСТИ КАМАЗ <br> В ЛЮБУЮ ТОЧКУ РОССИИ
+                </span>
+                <a href="catalog.html">
+                    <button class="headimage__btn">
+                    Выбрать
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="about_us">
+            <span class="about_us__header">
+                О нас
+            </span>
+            <div class="about_us__content">
+                <span class="about_us__text">
+                        Компания “DETAIL-GROUP” основана в 2024 году и располагается в городе набережные челны.
+                        мЫ ГАРАНТИРУЕМ СКОРОСТЬ ДОСТАВКИ И КАЧЕСТВЕННУЮ ПОДДЕРЖКУ. 
+                        ТАКЖЕ У НАС САМЫЕ НИЗКИЕ ЦЕНЫ, ПОЭТОМУ МЫ - ЛУЧШИЙ ВЫБОР ДЛЯ ВАС!
+                </span>
+                <div class="about_us__card" style="position:relative;overflow:hidden;">
+                        <a href="https://yandex.ru/maps/org/garazh_2000/124068964315/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Гараж 2000</a>
+                        <a href="https://yandex.ru/maps/236/naberezhnye-chelny/category/car_service_auto_repair/184105246/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Автосервис, автотехцентр в Набережных Челнах</a>
+                        <iframe class="carda" src="https://yandex.ru/map-widget/v1/?ll=52.362433%2C55.688172&mode=search&oid=124068964315&ol=biz&z=17.12" width="445px" height="335px" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback">
+
+                <span class="feedback__header">
+                    ОТЗЫВЫ НАШИХ КЛИЕНТОВ
+                </span>
+                <div class="feedback__main">
+                    <a href="#"><img src="imgs/arrow__left.svg"  class="feedback__arrow feedback__arrow--left"alt="arrow"></a>
+                    <div class="card_feedback card_feedback__1">
+                        <span class="card_feedback__header">“Не ожидал, что заказ придет так быстро! Товары отличного качества, а цены приятно удивляют. Буду обращаться снова.”</span>
+                        <div class="card_feedback__information">
+                            <img src="imgs/avatars/avatar.png" alt="" class="card_feedback__img"> 
+                            <span class="card_feedback__name">Сергей Васильев</span>
+                            <span class="card_feedback__about">Постоянный клиент</span>
+                        </div>
+                    </div>
+                    <div class="card_feedback card_feedback__2">
+                        <span class="card_feedback__header">“Работаю с Detail-Group уже несколько лет. Всегда получаю качественный товар вовремя. Отличная команда профессионалов!”</span>
+                        <div class="card_feedback__information">
+                            <img src="imgs/avatars/avatar.png" alt="" class="card_feedback__img"> 
+                            <span class="card_feedback__name">Дмитрий Иванов</span>
+                            <span class="card_feedback__about">Бизнес-партнер</span>
+                        </div>
+                    </div>  
+                    <div class="card_feedback card_feedback__3">
+                        <span class="card_feedback__header">“Быстрая обработка заказов, вежливые менеджеры. Получил товар раньше срока, чем ожидал. Всё отлично, спасибо!”</span>
+                        <div class="card_feedback__information">
+                            <img src="imgs/avatars/avatar.png" alt="" class="card_feedback__img"> 
+                            <span class="card_feedback__name">Александр Кузнецов</span>
+                            <span class="card_feedback__about">Клиент интернет-магазина</span>
+                        </div>
+                    </div>
+                    <div class="card_feedback card_feedback__4">
+                        <span class="card_feedback__header">“Быстрая доставка, отличные тарифы и отличная поддержка! Понравилось”</span>
+                        <div class="card_feedback__information">
+                            <img src="imgs/avatars/avatar.png" alt="" class="card_feedback__img"> 
+                            <span class="card_feedback__name">Владимир Соколов</span>
+                            <span class="card_feedback__about">Клиент интернет-магазина</span>
+                        </div>
+                    </div>
+                    <div class="card_feedback card_feedback__5">
+                        <span class="card_feedback__header">“Цены радуют, обслуживание на высшем уровне. Быстрое оформление и доставка. Планирую продолжить сотрудничество!”</span>
+                        <div class="card_feedback__information">
+                            <img src="imgs/avatars/avatar.png" alt="" class="card_feedback__img"> 
+                            <span class="card_feedback__name">Михаил Морозов</span>
+                            <span class="card_feedback__about">Клиент интернет-магазина</span>
+                        </div>
+                    </div>  
+                    <div class="card_feedback card_feedback__6">
+                        <span class="card_feedback__header">“Работаем с Detail-Group уже больше года. Никогда не было проблем ни с поставкой, ни с качеством. Надежный партнер!”</span>
+                        <div class="card_feedback__information">
+                            <img src="imgs/avatars/avatar.png" alt="" class="card_feedback__img"> 
+                            <span class="card_feedback__name">Евгений Петров</span>
+                            <span class="card_feedback__about">Предприниматель</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="imgs/arrow__right.svg" alt="arrow"  class="feedback__arrow feedback__arrow--right"></a>
+                </div>
+                
+
+        </div>
+
+        <div class="popular_items">
+            <div class="popular_items__content">
+                <span class="popular_items__header">
+                    Популярные <span class="popular_items__header-thin">товары</span>
+                </span>
+                <div class="popular_items__cards first-set"> 
+                    
+                    <div class="product_card product_card__0">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний3.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Амортизатор кабины задний</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">4500</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">(гаситель колебаний)  на 5490 / SAMPA (Турция) </span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+
+                    <div class="product_card product_card__2">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_мтз1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_мтз2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_мтз3.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Амортизатор МТЗ</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">193</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">опоры двигателя передний с ограничителем (подушка) (А)</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card product_card__3">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/барабан_тормозной_правый_короткий1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/барабан_тормозной_правый_короткий2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/барабан_тормозной_правый_короткий3.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/барабан_тормозной_правый_короткий4.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Барабан Т40 тормозной</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">6160</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Барабан Т40 тормозной правый КОРОТКИЙ в сборе (А)</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card product_card__4">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Блок_шестерен_заднего_хода1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Блок_шестерен_заднего_хода2.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Блок шестерен заднего хода</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">2365</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Блок шестерен заднего хода / КМД</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="popular_items__cards second-set">
+
+                    <a class="popular_items__arrow popular_items__next "><img src="imgs/arrow__left.svg" alt="arrow"></a>
+
+                    <div class="product_card product_card__1">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/амортизатор_кабины_задний3.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Балка подвески раздаточной</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">6046</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Балка подвески раздаточной коробки / ПАО КамАЗ</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card product_card__2">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Балка_подвески_раздаточной1.jpg);"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Болт МТЗ карданный</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">2045</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Балка подвески раздаточной коробки / ПАО КамАЗ</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card product_card__3">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Вал_ведущий_среднего_моста1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Вал_ведущий_среднего_моста2.jpg); display: none;"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Вал_ведущий_среднего_моста3.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Вал ведущий среднего моста</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">2450</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Вал ведущий среднего моста 4310 (с двух сторон резьба)</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <div class="product_card product_card__4">
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Балка_задней_подвески1.jpg);"></div>
+                        <div class="product_card__img" style="background-image: url(imgs/details_photos/Балка_задней_подвески2.jpg); display: none;"></div>
+                        <div class="product_card__text"> 
+                            <span class="product_card__header">Балка задней подвески</span>
+                            <div class="product_card__price-content">
+                                <span class="product_card__price">117340</span><span>₽</span>
+                            </div>
+                            <span class="product_card__info">Балка задней подвески без стяжки (на 5490) / РОСТАР</span>
+                            <button class="product_card__btn">В корзину</button>
+                        </div>
+                    </div>
+
+                    <a class="popular_items__arrow popular_items__prev"><img src="imgs/arrow__right.svg" alt="arrow"></a>
+
+                </div>
+                <a href="catalog.html">
+                    <button class="popular_items__btn">
+                    Перейти в каталог →
+                </button>
+                </a>
+                
+            </div>
+                
+            
+        </div>
+        
+        <div class="footer">
+            <div class="footer__content">
+                <span class="footer__logo">DETAIL-GROUP</span>
+                <span class="footer__number">+7 919 649-37-20</span>
+                <div class="footer__icons">
+                    <a href="https://vk.com/sawisback"><img src="imgs/Social Icons-1.svg" alt=""></a>
+                    <a href="https://api.whatsapp.com/send/?phone=79196493720"><img src="imgs/Social Icons.svg" alt=""></a>
+                    <a href="https://web.telegram.org/k/#@MarkHoffman2025"><img src="imgs/Social Icons-2.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>

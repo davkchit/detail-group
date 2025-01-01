@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DN7V3LBC8S"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DN7V3LBC8S');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="basket.js" defer></script>
+    <script src="burger.js" defer></script>
+</head>
+<body>
+    <div class="site">
+        <div class="header">
+            <div class="header__content">
+                <img src="imgs/Логотип.svg" class="logo">
+                <div class="nav">
+                    <a href="index.html"><span class="nav__item">Главная</span></a>
+                    <a href="aboutus.html"><span class="nav__item">О нас</span></a>
+                    <a href="catalog.html"><span class="nav__item">Каталог</span></a>
+                    <a href="contacts.html"><span class="nav__item">Контакты</span></a>
+                </div>
+                <div class="basket">
+                    <a href="basket.html" ><img src="imgs/Basket.svg" alt="Basket" class="basket"></a>
+                </div>
+                <div class="burger">
+                    <a href=""><img src="imgs/burger.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-nav hidden">
+            <a href="index.html"><span class="mobile-nav__item">Главная</span></a>
+            <a href="aboutus.html"><span class="mobile-nav__item">О нас</span></a>
+            <a href="catalog.html"><span class="mobile-nav__item">Каталог</span></a>
+            <a href="contacts.html"><span class="mobile-nav__item">Контакты</span></a>
+            <a href="basket.html"><span class="mobile-nav__item">Корзина</span></a>
+        </div>
+        <div class="page">
+            <div class="basket-page">
+                <h1 class="basket-heading">Ваша корзина</h1>
+                <div class="basket-items"></div>
+                <div class="total-amount"></div>
+                <div class="user-details">
+                    <input type="text" id="fullName" placeholder="ФИО" style="text-transform: capitalize;">
+                    <input type="email" id="email" placeholder="Электронная почта" style="text-transform: none;">
+                    <input type="tel" id="phone" placeholder="Номер телефона">
+                    <input type="text" id="address" placeholder="Адрес отправки"> <!-- новое поле -->
+                </div>
+                <button class="submit-button">Отправить заявку</button>
+                <span style="font-size: 22px;"><br>РЕКВИЗИТЫ НА ОПЛАТУ:</span>
+                <span style="font-size: 22px;">
+                    <br>ИНН: 1650364818 <br>
+                    КПП: 165001001 <br>
+                    ОГРН: 1181690043655<br>
+                    Расчетный счет: 40702810402500106687 <br>
+                    Банк: ТОЧКА ПАО БАНКА "ФК ОТКРЫТИЕ" <br>
+                    БИК: 044525999 <br>
+                    Корр. счет: 30101810445250000999<br>
+                    Юридический адрес: Россия, 423832, Татарстан Респ., г. Набережные Челны, проспект Хасана Туфана, дом 53, квартира 124<br>
+                    Директор: Рзаев Фахраддин Ахмед Оглы</span>
+            </div>
+        </div>
+
+    </div>
+        
+        
+</body>
+</html>
